@@ -11,6 +11,8 @@ function calcularIMC () {
 
 }
 
+calcularIMC();
+
 function fatorial () {
     let valorFatorial = parseInt(prompt("Digite um valor que deseja saber seu fatorial:"));
     let resultFatorial = 1;
