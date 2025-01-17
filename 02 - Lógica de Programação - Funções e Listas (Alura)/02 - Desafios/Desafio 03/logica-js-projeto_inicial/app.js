@@ -23,3 +23,19 @@ function fatorial () {
 
 }
 
+function cambio () {
+    let valorReal = prompt("Digite o valor em reais que deseja converter:");
+    valorDolar = valorReal / 4.80;
+    alert(`O valor de R$${valorReal} reais, é equivalente a $${valorDolar} dólares.`);
+}
+
+function tabuada () {
+    let valorMulti = parseInt(prompt("Digite um valor para saber sua tabuada de multiplicação:"));
+    let multiplicador = 10;
+    let resultMultiplicador;
+
+    for(multiplicador; multiplicador >= 1; multiplicador--) {
+        resultMultiplicador = valorMulti * multiplicador;
+        console.log(`${valorMulti} x ${multiplicador} = ${resultMultiplicador}`);
+    }
+}
